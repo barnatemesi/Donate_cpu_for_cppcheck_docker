@@ -1,8 +1,11 @@
 # Disclaimer
-No warranty or support is given. Project is as is. Used it at your own risk!
+No warranty or support is given. Project is as is. Use it at your own risk!
+
+Please consider supporting (in any way or shape) the cppcheck project!
 
 # Donate_cpu_for_cppcheck_docker
-Docker container for donating CPU for the cppcheck project.
+Docker container for donating CPU(s) for the cppcheck project. 
+The python script provided by the project will analyse debian source code and upload the results to a cppcheck server. We need these results both to improve Cppcheck and to detect regressions.
 
 There is no officially supported docker image yet. Instead of running the project from the terminal with the given python command, I thought it would be nice to a docker image of this and manage it with your other docker images.
 
@@ -10,6 +13,8 @@ There is no officially supported docker image yet. Instead of running the projec
 Download the latest cppcheck from their source such as:
 
 https://github.com/danmar/cppcheck
+
+Place the `Dockerfile` in root.
 
 # Usage
 Building the image: 
