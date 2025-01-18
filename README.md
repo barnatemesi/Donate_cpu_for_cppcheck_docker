@@ -19,7 +19,7 @@ Place the `Dockerfile` in root.
 # Usage
 Building the image: 
 
-`docker build -t <image-name> -f path/to/your/Dockerfile .`
+`docker build -t <container-name> -f path/to/your/Dockerfile .`
 
 The provided python script might fail due to external server issues. In order to force restart of the container update the restart setting (does not need to be `unless-stopped`):
 
